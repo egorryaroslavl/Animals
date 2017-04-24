@@ -1,0 +1,15 @@
+@extends('layouts.epetcare.index')
+@section('content')
+{{--  	@include('start_page.epetcare.slider.slider')
+    @include('start_page.epetcare.services')--}}
+    @include('start_page.epetcare.about')
+    @include('start_page.epetcare.doctors')
+    @include('start_page.epetcare.testimonials')
+    @include('start_page.epetcare.pet_for_sell')
+    @include('start_page.epetcare.looking_for_love')
+    @include('start_page.epetcare.become_user')
+    @include('start_page.epetcare.pricing')
+    @include('start_page.epetcare.gallery')
+    @include('start_page.epetcare.products')
+    @include('start_page.epetcare.latest_news')
+@endsection

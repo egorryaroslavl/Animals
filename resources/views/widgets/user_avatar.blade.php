@@ -1,0 +1,1 @@
+<img src="{{ $data->avatar }}" alt="" width="200">
